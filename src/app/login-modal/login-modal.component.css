@@ -1,0 +1,17 @@
+.center-box {
+  background: darkcyan;
+  border-radius: 5px;
+  text-align: center;
+  width: 30%;
+  color: #fff;
+}
+
+.form-group {
+  width: 85%;
+  margin: auto;
+}
+
+.sub-btn {
+  color: #fff;
+  margin: 1em;
+}
