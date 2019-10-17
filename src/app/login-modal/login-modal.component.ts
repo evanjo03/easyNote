@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { User } from './login-modal.interface';
 
 @Component({
   selector: 'app-login-modal',
@@ -8,9 +9,18 @@ import { FormControl } from '@angular/forms';
 })
 export class LoginModalComponent implements OnInit {
 
+  public user: User = {
+    username: '',
+    password: '',
+  };
+
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+
+  onSubmit() {
+    console.log(this.user);
   }
 
 }
